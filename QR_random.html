@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Redirezionamento casuale</title>
+    <script>
+      const links = [
+        "CAS_01.html",
+        "CAS_02.html",
+        "CAS_03.html",
+        "CAS_04.html",
+        "CAS_05.html",
+        "CAS_06.html",
+        "CAS_07.html",
+        "CAS_08.html",
+        "CAS_09.html",
+        "CAS_10.html"
+      ];
+      const scelta = links[Math.floor(Math.random() * links.length)];
+      window.location.href = scelta;
+    </script>
+  </head>
+  <body>
+    <p>In attesa di scoprire il tuo destino...</p>
+  </body>
+</html>
